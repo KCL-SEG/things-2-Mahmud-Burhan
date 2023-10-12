@@ -6,7 +6,8 @@
   <h1>
     Things
   </h1>
+  {% csrf_token %}
   {{ form.as_p }}
-  <p>Some stuff about things goes here.</p>
+  <input type="submit" value="Submit">
 </body>
 </html>
